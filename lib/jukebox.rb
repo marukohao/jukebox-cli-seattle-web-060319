@@ -41,6 +41,7 @@ def exit_jukebox
 end
 
 def run(songs) 
+  answer = nil
   until answer == "exit"
     help
     puts "Please enter a command:"
